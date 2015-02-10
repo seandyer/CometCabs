@@ -1,0 +1,1576 @@
+I-Logix-RPY-Archive version 8.8.0 Java 6107223
+{ ISubsystem 
+	- _id = GUID a572bbc7-d8af-4cca-a406-1d17d5af158f;
+	- _myState = 8192;
+	- _name = "Default";
+	- _modifiedTimeWeak = 2.10.2015::18:52:16;
+	- _lastID = 21;
+	- weakCGTime = 2.10.2015::18:52:16;
+	- strongCGTime = 2.10.2015::18:27:59;
+	- AssociationElements = { IRPYRawContainer 
+		- size = 6;
+		- value = 
+		{ IAssociationClass 
+			- _id = GUID 4e3d5b1c-b11c-4f7d-a861-0833a00ae504;
+			- _myState = 8192;
+			- _name = "Manages";
+			- _modifiedTimeWeak = 12.31.1969::18:0:0;
+			- weakCGTime = 12.31.1969::18:0:0;
+			- strongCGTime = 12.31.1969::18:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+			- _isClass = 0;
+			- m_end1 = { IHandle 
+				- _m2Class = "IAssociationEnd";
+				- _id = GUID dca9ef01-b0da-4f97-a58c-47d8700ed03f;
+			}
+			- m_end2 = { IHandle 
+				- _m2Class = "IAssociationEnd";
+				- _id = GUID b37af726-b147-4326-938e-82db97dcaef2;
+			}
+		}
+		{ IAssociationClass 
+			- _id = GUID dc4a3272-88d1-4f63-8685-db9026d5997b;
+			- _myState = 8192;
+			- _name = "Operates";
+			- _modifiedTimeWeak = 12.31.1969::18:0:0;
+			- weakCGTime = 12.31.1969::18:0:0;
+			- strongCGTime = 12.31.1969::18:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+			- _isClass = 0;
+			- m_end1 = { IHandle 
+				- _m2Class = "IAssociationEnd";
+				- _id = GUID ebc13134-f79b-4040-9235-18a649db92c0;
+			}
+			- m_end2 = { IHandle 
+				- _m2Class = "IAssociationEnd";
+				- _id = GUID 21cdf73d-7be7-4cb8-bf8f-e492099ca416;
+			}
+		}
+		{ IAssociationClass 
+			- _id = GUID 29bfb714-f8c8-4eed-b8f0-91a5f6789d6b;
+			- _myState = 8192;
+			- _name = "Follows";
+			- _modifiedTimeWeak = 12.31.1969::18:0:0;
+			- weakCGTime = 12.31.1969::18:0:0;
+			- strongCGTime = 12.31.1969::18:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+			- _isClass = 0;
+			- m_end1 = { IHandle 
+				- _m2Class = "IAssociationEnd";
+				- _id = GUID c863021e-29f2-454e-8e96-a2ff6194862a;
+			}
+			- m_end2 = { IHandle 
+				- _m2Class = "IAssociationEnd";
+				- _id = GUID 083ca4b9-b782-4dd1-994c-5495b024b357;
+			}
+		}
+		{ IAssociationClass 
+			- _id = GUID ffa825a0-9bb1-4a83-a43f-e38b763fb8ea;
+			- _myState = 8192;
+			- _name = "Rides";
+			- _modifiedTimeWeak = 12.31.1969::18:0:0;
+			- weakCGTime = 12.31.1969::18:0:0;
+			- strongCGTime = 12.31.1969::18:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+			- _isClass = 0;
+			- m_end1 = { IHandle 
+				- _m2Class = "IAssociationEnd";
+				- _id = GUID 2ac1a8d9-f0d9-44d2-838a-66ba09cd984e;
+			}
+			- m_end2 = { IHandle 
+				- _m2Class = "IAssociationEnd";
+				- _id = GUID d63fcb6d-cc96-4c4e-b59a-5f942a2bf859;
+			}
+		}
+		{ IAssociationClass 
+			- _id = GUID b1c44a83-3c05-4e74-9be0-5239c5bf77c7;
+			- _myState = 8192;
+			- _name = "Updates";
+			- _modifiedTimeWeak = 12.31.1969::18:0:0;
+			- weakCGTime = 12.31.1969::18:0:0;
+			- strongCGTime = 12.31.1969::18:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+			- _isClass = 0;
+			- m_end1 = { IHandle 
+				- _m2Class = "IAssociationEnd";
+				- _id = GUID 20b227d8-3e5d-4036-90bd-713617bffc10;
+			}
+			- m_end2 = { IHandle 
+				- _m2Class = "IAssociationEnd";
+				- _id = GUID e2fa666c-0e19-4fe0-9d32-c8024a3bfcb9;
+			}
+		}
+		{ IAssociationClass 
+			- _id = GUID 0291209a-96ae-4228-9c9d-8c7e0d0a3faf;
+			- _myState = 8192;
+			- _name = "Manages";
+			- _modifiedTimeWeak = 12.31.1969::18:0:0;
+			- weakCGTime = 12.31.1969::18:0:0;
+			- strongCGTime = 12.31.1969::18:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+			- _isClass = 0;
+			- m_end1 = { IHandle 
+				- _m2Class = "IAssociationEnd";
+				- _id = GUID faf4f681-bcb0-4f0a-8ade-e16c4f01ef82;
+			}
+			- m_end2 = { IHandle 
+				- _m2Class = "IAssociationEnd";
+				- _id = GUID 1f1dbc8f-58bb-4370-86ce-433000353048;
+			}
+		}
+	}
+	- _defaultComposite = GUID fc1addec-7be5-4189-ade7-e58f664e64fb;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 8;
+		- value = 
+		{ IClass 
+			- _id = GUID fc1addec-7be5-4189-ade7-e58f664e64fb;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _modifiedTimeWeak = 2.10.2015::18:27:59;
+			- weakCGTime = 2.10.2015::18:27:59;
+			- strongCGTime = 2.10.2015::18:27:59;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 0;
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID a9cc593e-597e-4741-8c9b-7d57cfec2592;
+			- _myState = 8192;
+			- _name = "Shuttle";
+			- _modifiedTimeWeak = 2.10.2015::18:48:12;
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Domain Model";
+				- _id = GUID b82238b2-ecf3-4502-a319-34d7f508832e;
+			}
+			- _lastID = 6;
+			- weakCGTime = 2.10.2015::18:48:12;
+			- strongCGTime = 2.10.2015::18:27:59;
+			- Attrs = { IRPYRawContainer 
+				- size = 5;
+				- value = 
+				{ IAttribute 
+					- _id = GUID 5de6e577-8c9f-4535-bdd3-9ef8e3bb0dea;
+					- _myState = 8192;
+					- _name = "latitude";
+					- _modifiedTimeWeak = 2.10.2015::18:23:2;
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "double";
+						- _id = GUID 19ff3e1d-dec7-4b90-a4ae-951a4e7c5e37;
+					}
+					- _isOrdered = 0;
+					- _protection = iPrivate;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+				{ IAttribute 
+					- _id = GUID eabe6deb-2279-49df-933b-78cd077cb56f;
+					- _myState = 8192;
+					- _name = "longitude";
+					- _modifiedTimeWeak = 2.10.2015::18:23:12;
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "double";
+						- _id = GUID 19ff3e1d-dec7-4b90-a4ae-951a4e7c5e37;
+					}
+					- _isOrdered = 0;
+					- _protection = iPrivate;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+				{ IAttribute 
+					- _id = GUID f2f9b8ac-b581-499e-a292-a10583e5e901;
+					- _myState = 8192;
+					- _name = "maxCapacity";
+					- _modifiedTimeWeak = 2.10.2015::18:23:59;
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "int";
+						- _id = GUID 3b5a0555-e8e5-4b86-9ea1-95ae819b6564;
+					}
+					- _isOrdered = 0;
+					- _protection = iPrivate;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+				{ IAttribute 
+					- _id = GUID 7cc68877-ee93-413b-968e-c7141ad83a42;
+					- _myState = 8192;
+					- _name = "currentCapacity";
+					- _modifiedTimeWeak = 2.10.2015::18:24:16;
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "int";
+						- _id = GUID 3b5a0555-e8e5-4b86-9ea1-95ae819b6564;
+					}
+					- _isOrdered = 0;
+					- _protection = iPrivate;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+				{ IAttribute 
+					- _id = GUID 4d0362a7-0165-4c66-9c47-3d1e8cc3786b;
+					- _myState = 8192;
+					- _name = "onDuty";
+					- _modifiedTimeWeak = 2.10.2015::18:24:30;
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "boolean";
+						- _id = GUID fee479b3-e691-4955-95c2-8ddd2dab234d;
+					}
+					- _isOrdered = 0;
+					- _protection = iPrivate;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 4;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 21cdf73d-7be7-4cb8-bf8f-e492099ca416;
+					- _myState = 10240;
+					- _name = "itsUser_Driver";
+					- _modifiedTimeWeak = 2.10.2015::18:38:17;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID f41cb96e-d2e0-4334-83c7-c436d14ef78a;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID ebc13134-f79b-4040-9235-18a649db92c0;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+					- m_associationClass = { IHandle 
+						- _m2Class = "IAssociationClass";
+						- _id = GUID dc4a3272-88d1-4f63-8685-db9026d5997b;
+					}
+				}
+				{ IAssociationEnd 
+					- _id = GUID 083ca4b9-b782-4dd1-994c-5495b024b357;
+					- _myState = 10240;
+					- _name = "itsRoute";
+					- _modifiedTimeWeak = 2.10.2015::18:39:25;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID be07095b-14f0-47a3-8ba5-a7f8432cddf4;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID c863021e-29f2-454e-8e96-a2ff6194862a;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+					- m_associationClass = { IHandle 
+						- _m2Class = "IAssociationClass";
+						- _id = GUID 29bfb714-f8c8-4eed-b8f0-91a5f6789d6b;
+					}
+				}
+				{ IAssociationEnd 
+					- _id = GUID d63fcb6d-cc96-4c4e-b59a-5f942a2bf859;
+					- _myState = 10240;
+					- _name = "itsUser_Rider";
+					- _modifiedTimeWeak = 2.10.2015::18:39:54;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID a34bc40a-08c5-4e70-8454-6f86e4ea0426;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 2ac1a8d9-f0d9-44d2-838a-66ba09cd984e;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+					- m_associationClass = { IHandle 
+						- _m2Class = "IAssociationClass";
+						- _id = GUID ffa825a0-9bb1-4a83-a43f-e38b763fb8ea;
+					}
+				}
+				{ IAssociationEnd 
+					- _id = GUID 20b227d8-3e5d-4036-90bd-713617bffc10;
+					- _myState = 10240;
+					- _name = "itsOperationsDB";
+					- _modifiedTimeWeak = 2.10.2015::18:48:12;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID d8f792c5-2269-43c9-9a5b-455536ee92c3;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID e2fa666c-0e19-4fe0-9d32-c8024a3bfcb9;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+					- m_associationClass = { IHandle 
+						- _m2Class = "IAssociationClass";
+						- _id = GUID b1c44a83-3c05-4e74-9be0-5239c5bf77c7;
+					}
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID f41cb96e-d2e0-4334-83c7-c436d14ef78a;
+			- _myState = 8192;
+			- _name = "User_Driver";
+			- _modifiedTimeWeak = 2.10.2015::18:38:17;
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Domain Model";
+				- _id = GUID b82238b2-ecf3-4502-a319-34d7f508832e;
+			}
+			- weakCGTime = 2.10.2015::18:38:17;
+			- strongCGTime = 2.10.2015::18:31:45;
+			- Inheritances = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IGeneralization 
+					- _id = GUID 16411790-0471-4a12-a91f-3df11f689c49;
+					- _modifiedTimeWeak = 12.31.1969::18:0:0;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 6591a121-1ed1-4dc7-b37a-903f26873975;
+					}
+					- _inheritanceType = iPublic;
+					- _isVirtual = 0;
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID ebc13134-f79b-4040-9235-18a649db92c0;
+					- _myState = 10240;
+					- _name = "itsShuttle";
+					- _modifiedTimeWeak = 2.10.2015::18:38:17;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID a9cc593e-597e-4741-8c9b-7d57cfec2592;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 21cdf73d-7be7-4cb8-bf8f-e492099ca416;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+					- m_associationClass = { IHandle 
+						- _m2Class = "IAssociationClass";
+						- _id = GUID dc4a3272-88d1-4f63-8685-db9026d5997b;
+					}
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 6fc2ea75-20dc-4e31-870c-7be962e98d35;
+			- _myState = 8192;
+			- _name = "User_Admin";
+			- _modifiedTimeWeak = 2.10.2015::18:48:35;
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Domain Model";
+				- _id = GUID b82238b2-ecf3-4502-a319-34d7f508832e;
+			}
+			- weakCGTime = 2.10.2015::18:48:35;
+			- strongCGTime = 2.10.2015::18:31:51;
+			- Inheritances = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IGeneralization 
+					- _id = GUID c0ee5481-417c-4e7c-b251-0001c32ed0c6;
+					- _modifiedTimeWeak = 12.31.1969::18:0:0;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 6591a121-1ed1-4dc7-b37a-903f26873975;
+					}
+					- _inheritanceType = iPublic;
+					- _isVirtual = 0;
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID dca9ef01-b0da-4f97-a58c-47d8700ed03f;
+					- _myState = 10240;
+					- _name = "itsRoute";
+					- _modifiedTimeWeak = 2.10.2015::18:38:1;
+					- _multiplicity = "*";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID be07095b-14f0-47a3-8ba5-a7f8432cddf4;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID b37af726-b147-4326-938e-82db97dcaef2;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+					- m_associationClass = { IHandle 
+						- _m2Class = "IAssociationClass";
+						- _id = GUID 4e3d5b1c-b11c-4f7d-a861-0833a00ae504;
+					}
+				}
+				{ IAssociationEnd 
+					- _id = GUID faf4f681-bcb0-4f0a-8ade-e16c4f01ef82;
+					- _myState = 10240;
+					- _name = "itsOperationsDB";
+					- _modifiedTimeWeak = 2.10.2015::18:48:35;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID d8f792c5-2269-43c9-9a5b-455536ee92c3;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 1f1dbc8f-58bb-4370-86ce-433000353048;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+					- m_associationClass = { IHandle 
+						- _m2Class = "IAssociationClass";
+						- _id = GUID 0291209a-96ae-4228-9c9d-8c7e0d0a3faf;
+					}
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 6591a121-1ed1-4dc7-b37a-903f26873975;
+			- _myState = 8192;
+			- _name = "User";
+			- _modifiedTimeWeak = 2.10.2015::18:40:53;
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Domain Model";
+				- _id = GUID b82238b2-ecf3-4502-a319-34d7f508832e;
+			}
+			- _lastID = 2;
+			- weakCGTime = 2.10.2015::18:40:53;
+			- strongCGTime = 2.10.2015::18:27:59;
+			- Attrs = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IAttribute 
+					- _id = GUID c2abf7a3-0334-4946-89f6-181536943160;
+					- _myState = 8192;
+					- _name = "loginName";
+					- _modifiedTimeWeak = 2.10.2015::18:40:43;
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "String";
+						- _id = GUID cb97d0d7-bf5d-4020-b25e-f6a87117705a;
+					}
+					- _isOrdered = 0;
+					- _protection = iPrivate;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+				{ IAttribute 
+					- _id = GUID 55352ba4-7179-4333-a6ce-3cfd905f0312;
+					- _myState = 8192;
+					- _name = "password";
+					- _modifiedTimeWeak = 2.10.2015::18:40:53;
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "String";
+						- _id = GUID cb97d0d7-bf5d-4020-b25e-f6a87117705a;
+					}
+					- _isOrdered = 0;
+					- _protection = iPrivate;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID a34bc40a-08c5-4e70-8454-6f86e4ea0426;
+			- _myState = 8192;
+			- _name = "User_Rider";
+			- _modifiedTimeWeak = 2.10.2015::18:39:54;
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Domain Model";
+				- _id = GUID b82238b2-ecf3-4502-a319-34d7f508832e;
+			}
+			- _lastID = 1;
+			- weakCGTime = 2.10.2015::18:39:54;
+			- strongCGTime = 2.10.2015::18:32:4;
+			- Attrs = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAttribute 
+					- _id = GUID 9fc5d14a-2755-471b-92d4-b092bd3e534d;
+					- _myState = 8192;
+					- _name = "waitingForCab";
+					- _modifiedTimeWeak = 2.10.2015::18:36:31;
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "boolean";
+						- _id = GUID fee479b3-e691-4955-95c2-8ddd2dab234d;
+					}
+					- _isOrdered = 0;
+					- _protection = iPrivate;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+			}
+			- Inheritances = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IGeneralization 
+					- _id = GUID 1be68451-3760-4ef6-912b-4196bc9f2f33;
+					- _modifiedTimeWeak = 12.31.1969::18:0:0;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 6591a121-1ed1-4dc7-b37a-903f26873975;
+					}
+					- _inheritanceType = iPublic;
+					- _isVirtual = 0;
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 2ac1a8d9-f0d9-44d2-838a-66ba09cd984e;
+					- _myState = 10240;
+					- _name = "itsShuttle";
+					- _modifiedTimeWeak = 2.10.2015::18:39:54;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID a9cc593e-597e-4741-8c9b-7d57cfec2592;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID d63fcb6d-cc96-4c4e-b59a-5f942a2bf859;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+					- m_associationClass = { IHandle 
+						- _m2Class = "IAssociationClass";
+						- _id = GUID ffa825a0-9bb1-4a83-a43f-e38b763fb8ea;
+					}
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID be07095b-14f0-47a3-8ba5-a7f8432cddf4;
+			- _myState = 8192;
+			- _name = "Route";
+			- _modifiedTimeWeak = 2.10.2015::18:52:59;
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Domain Model";
+				- _id = GUID b82238b2-ecf3-4502-a319-34d7f508832e;
+			}
+			- _lastID = 2;
+			- weakCGTime = 2.10.2015::18:52:59;
+			- strongCGTime = 2.10.2015::18:32:37;
+			- Attrs = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IAttribute 
+					- _id = GUID 806eb67a-8787-4d9e-8d92-74a12663161c;
+					- _myState = 8192;
+					- _name = "waypointLatitudes";
+					- _modifiedTimeWeak = 2.10.2015::18:52:51;
+					- myTypeOf = { IType 
+						- _id = GUID eb92a335-474f-49f0-838f-cdaa9a9f7eb3;
+						- _myState = 8192;
+						- _modifiedTimeWeak = 12.31.1969::18:0:0;
+						- _declaration = "List<double>";
+						- _kind = Language;
+					}
+					- _isOrdered = 0;
+					- _protection = iPrivate;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+				{ IAttribute 
+					- _id = GUID 108ad123-9d67-4711-b552-7f9e1ffb7efe;
+					- _myState = 8192;
+					- _name = "waypointLongitudes";
+					- _modifiedTimeWeak = 2.10.2015::18:52:59;
+					- myTypeOf = { IType 
+						- _id = GUID 83d4f389-e098-4296-8a6a-9cef3888b1d6;
+						- _myState = 8192;
+						- _modifiedTimeWeak = 12.31.1969::18:0:0;
+						- _declaration = "List<double>";
+						- _kind = Language;
+					}
+					- _isOrdered = 0;
+					- _protection = iPrivate;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID b37af726-b147-4326-938e-82db97dcaef2;
+					- _myState = 10240;
+					- _name = "itsUser_Admin";
+					- _modifiedTimeWeak = 2.10.2015::18:38:1;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 6fc2ea75-20dc-4e31-870c-7be962e98d35;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID dca9ef01-b0da-4f97-a58c-47d8700ed03f;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+					- m_associationClass = { IHandle 
+						- _m2Class = "IAssociationClass";
+						- _id = GUID 4e3d5b1c-b11c-4f7d-a861-0833a00ae504;
+					}
+				}
+				{ IAssociationEnd 
+					- _id = GUID c863021e-29f2-454e-8e96-a2ff6194862a;
+					- _myState = 10240;
+					- _name = "itsShuttle";
+					- _modifiedTimeWeak = 2.10.2015::18:39:25;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID a9cc593e-597e-4741-8c9b-7d57cfec2592;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 083ca4b9-b782-4dd1-994c-5495b024b357;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+					- m_associationClass = { IHandle 
+						- _m2Class = "IAssociationClass";
+						- _id = GUID 29bfb714-f8c8-4eed-b8f0-91a5f6789d6b;
+					}
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID d8f792c5-2269-43c9-9a5b-455536ee92c3;
+			- _myState = 8192;
+			- _name = "OperationsDB";
+			- _modifiedTimeWeak = 2.10.2015::18:48:35;
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Domain Model";
+				- _id = GUID b82238b2-ecf3-4502-a319-34d7f508832e;
+			}
+			- weakCGTime = 2.10.2015::18:48:35;
+			- strongCGTime = 2.10.2015::18:48:2;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID e2fa666c-0e19-4fe0-9d32-c8024a3bfcb9;
+					- _myState = 10240;
+					- _name = "itsShuttle";
+					- _modifiedTimeWeak = 2.10.2015::18:48:19;
+					- _multiplicity = "*";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID a9cc593e-597e-4741-8c9b-7d57cfec2592;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 20b227d8-3e5d-4036-90bd-713617bffc10;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+					- m_associationClass = { IHandle 
+						- _m2Class = "IAssociationClass";
+						- _id = GUID b1c44a83-3c05-4e74-9be0-5239c5bf77c7;
+					}
+				}
+				{ IAssociationEnd 
+					- _id = GUID 1f1dbc8f-58bb-4370-86ce-433000353048;
+					- _myState = 10240;
+					- _name = "itsUser_Admin";
+					- _modifiedTimeWeak = 2.10.2015::18:48:35;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 6fc2ea75-20dc-4e31-870c-7be962e98d35;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID faf4f681-bcb0-4f0a-8ade-e16c4f01ef82;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+					- m_associationClass = { IHandle 
+						- _m2Class = "IAssociationClass";
+						- _id = GUID 0291209a-96ae-4228-9c9d-8c7e0d0a3faf;
+					}
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- UseCases = { IRPYRawContainer 
+		- size = 7;
+		- value = 
+		{ IUseCase 
+			- _id = GUID fee31111-19e7-47e9-bf64-125c7b5614d0;
+			- _myState = 8192;
+			- _name = "View Cab Routes";
+			- _modifiedTimeWeak = 1.2.1990::0:0:0;
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID f51089da-8e5a-4097-8f7f-51dd25602ac5;
+					- _myState = 10240;
+					- _name = "itsRider";
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID 8cb40254-ef6a-4b3d-8b55-2591da6c2726;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 12cf9b45-2100-4272-9d79-26e1f5c842fb;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 6b01b31a-6e80-4248-a866-6d31db2efaa3;
+					- _myState = 10240;
+					- _name = "itsAdmin";
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID 4fd917af-4bbb-466b-8117-88106861eb63;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 6444356a-f449-43fb-8fb1-55dd48cbb78f;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IUseCase 
+			- _id = GUID 54aabe8c-c374-4522-9f63-06c485153e59;
+			- _myState = 8192;
+			- _name = "Manage Cab Routes";
+			- Dependencies = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IDependency 
+					- _id = GUID cc23de11-acee-441e-be6c-7067e598c1d5;
+					- _myState = 2048;
+					- _name = "View Cab Routes";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "PredefinedTypes.sbs";
+							- _subsystem = "PredefinedTypes";
+							- _class = "";
+							- _name = "include";
+							- _id = GUID 17ef9a2f-cb89-11d5-b5bf-00d0b780aafd;
+						}
+					}
+					- _modifiedTimeWeak = 2.3.2015::18:20:32;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID fee31111-19e7-47e9-bf64-125c7b5614d0;
+					}
+				}
+			}
+			- _modifiedTimeWeak = 2.3.2015::18:20:32;
+			- _lastID = 1;
+			- weakCGTime = 2.3.2015::18:20:32;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID df23e9ae-72b7-4763-a5d5-575b4db40673;
+					- _myState = 10240;
+					- _name = "itsAdmin";
+					- _modifiedTimeWeak = 2.3.2015::18:20:32;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID 4fd917af-4bbb-466b-8117-88106861eb63;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 1f92ed39-33f2-4189-b68a-0e27511456f3;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IUseCase 
+			- _id = GUID cd61c7a7-95fe-480e-93cd-96f3cb2cdbf3;
+			- _myState = 8192;
+			- _name = "Indicate interest in taking a shuttle";
+			- _modifiedTimeWeak = 1.2.1990::0:0:0;
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 48f72c7a-26ed-4ef5-b179-bd61fdc01d32;
+					- _myState = 10240;
+					- _name = "itsRider";
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID 8cb40254-ef6a-4b3d-8b55-2591da6c2726;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID fe899726-8e1e-4580-93e8-0cf7990ed25b;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IUseCase 
+			- _id = GUID 2d11033e-00c4-4e68-97c0-1fc915ac8e86;
+			- _myState = 8192;
+			- _name = "Track Shuttle Details";
+			- Dependencies = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IDependency 
+					- _id = GUID d127a406-bedf-498c-a0f4-651d28eb3031;
+					- _myState = 2048;
+					- _name = "View Cab Routes";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "PredefinedTypes.sbs";
+							- _subsystem = "PredefinedTypes";
+							- _class = "";
+							- _name = "include";
+							- _id = GUID 17ef9a2f-cb89-11d5-b5bf-00d0b780aafd;
+						}
+					}
+					- _modifiedTimeWeak = 2.3.2015::18:43:18;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID fee31111-19e7-47e9-bf64-125c7b5614d0;
+					}
+				}
+			}
+			- _modifiedTimeWeak = 2.3.2015::18:43:18;
+			- _lastID = 2;
+			- weakCGTime = 2.3.2015::18:43:18;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 94a19411-9eea-4a31-aaa3-5127ab7b933b;
+					- _myState = 10240;
+					- _name = "itsRider";
+					- _modifiedTimeWeak = 2.3.2015::18:43:18;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID 8cb40254-ef6a-4b3d-8b55-2591da6c2726;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 0f758482-6ef5-4736-9f44-148bfb76c79a;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 6e743cec-4334-4f83-8bf2-51da348add1d;
+					- _myState = 10240;
+					- _name = "itsAdmin";
+					- _modifiedTimeWeak = 2.3.2015::18:43:18;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID 4fd917af-4bbb-466b-8117-88106861eb63;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID fe1a0485-dcc1-4a25-8713-8ed10fdeda9c;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IUseCase 
+			- _id = GUID c9e74664-2832-4cd3-95dd-1507951ef6cf;
+			- _myState = 8192;
+			- _name = "Update Shuttle Capacity";
+			- _modifiedTimeWeak = 1.2.1990::0:0:0;
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 3;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID d81363f8-7375-4128-90fc-d54092fcde10;
+					- _myState = 10240;
+					- _name = "itsDriver";
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID 05635426-614b-44be-a09f-a9ae42528d40;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 1664870a-d191-494c-91ea-73d338f398b6;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID b7525eb8-35e5-4011-a06b-86d639606bbb;
+					- _myState = 10240;
+					- _name = "itsRider";
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID 8cb40254-ef6a-4b3d-8b55-2591da6c2726;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID af33b213-93d5-43b2-9325-405cb46077a9;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID d3fb146d-4ee5-46d6-b529-d8401abe806f;
+					- _myState = 10240;
+					- _name = "itsAdmin";
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID 4fd917af-4bbb-466b-8117-88106861eb63;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 52db0ee8-eecb-4a58-a2fb-675f900d2ad7;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IUseCase 
+			- _id = GUID 3a6b07d5-c1d5-4008-9c17-75978cf33b76;
+			- _myState = 8192;
+			- _name = "View Shuttle Statistics";
+			- _modifiedTimeWeak = 1.2.1990::0:0:0;
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 99fe6138-294c-454e-bf82-37a35b52379d;
+					- _myState = 10240;
+					- _name = "itsAdmin";
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID 4fd917af-4bbb-466b-8117-88106861eb63;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID e7c34f06-211e-44c4-9578-72e3430b1e84;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IUseCase 
+			- _id = GUID 20326c49-7ddf-4c15-bdd5-75fe33fe4d22;
+			- _myState = 8192;
+			- _name = "Manage On Duty Status";
+			- _modifiedTimeWeak = 1.2.1990::0:0:0;
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 3;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 5919d011-5129-4923-9b42-67212e3bf0ea;
+					- _myState = 10240;
+					- _name = "itsDriver";
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID 05635426-614b-44be-a09f-a9ae42528d40;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID e705061e-b7ce-4206-b315-7a704b777653;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 8c9b4dbc-8cac-4145-b111-f89a907321be;
+					- _myState = 10240;
+					- _name = "itsAdmin";
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID 4fd917af-4bbb-466b-8117-88106861eb63;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 8c07ef1b-69f1-4d14-affe-ecb95478332a;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID a40cdfa7-7e11-4858-aca8-403c90f56703;
+					- _myState = 10240;
+					- _name = "itsRider";
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID 8cb40254-ef6a-4b3d-8b55-2591da6c2726;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID a7220d1c-7c4e-44f9-9db1-58121390adb7;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+	}
+	- Actors = { IRPYRawContainer 
+		- size = 3;
+		- value = 
+		{ IActor 
+			- _id = GUID 8cb40254-ef6a-4b3d-8b55-2591da6c2726;
+			- _myState = 8192;
+			- _name = "Rider";
+			- _modifiedTimeWeak = 2.10.2015::18:27:59;
+			- weakCGTime = 2.10.2015::18:27:59;
+			- strongCGTime = 2.10.2015::18:27:59;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 5;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 12cf9b45-2100-4272-9d79-26e1f5c842fb;
+					- _myState = 10240;
+					- _name = "itsView Cab Routes";
+					- _modifiedTimeWeak = 2.3.2015::18:56:28;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID fee31111-19e7-47e9-bf64-125c7b5614d0;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID f51089da-8e5a-4097-8f7f-51dd25602ac5;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID fe899726-8e1e-4580-93e8-0cf7990ed25b;
+					- _myState = 10240;
+					- _name = "itsIndicate interest in taking a shuttle";
+					- _modifiedTimeWeak = 2.3.2015::18:56:28;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID cd61c7a7-95fe-480e-93cd-96f3cb2cdbf3;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 48f72c7a-26ed-4ef5-b179-bd61fdc01d32;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 0f758482-6ef5-4736-9f44-148bfb76c79a;
+					- _myState = 10240;
+					- _name = "itsTrack Shuttle Details";
+					- _modifiedTimeWeak = 2.3.2015::18:56:28;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID 2d11033e-00c4-4e68-97c0-1fc915ac8e86;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 94a19411-9eea-4a31-aaa3-5127ab7b933b;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID af33b213-93d5-43b2-9325-405cb46077a9;
+					- _myState = 10240;
+					- _name = "itsUpdate Shuttle Capacity";
+					- _modifiedTimeWeak = 2.3.2015::18:56:28;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID c9e74664-2832-4cd3-95dd-1507951ef6cf;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID b7525eb8-35e5-4011-a06b-86d639606bbb;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID a7220d1c-7c4e-44f9-9db1-58121390adb7;
+					- _myState = 10240;
+					- _name = "itsManage On Duty Status";
+					- _modifiedTimeWeak = 2.3.2015::18:56:28;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID 20326c49-7ddf-4c15-bdd5-75fe33fe4d22;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID a40cdfa7-7e11-4858-aca8-403c90f56703;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IActor 
+			- _id = GUID 05635426-614b-44be-a09f-a9ae42528d40;
+			- _myState = 8192;
+			- _name = "Driver";
+			- _modifiedTimeWeak = 2.10.2015::18:27:59;
+			- weakCGTime = 2.10.2015::18:27:59;
+			- strongCGTime = 2.10.2015::18:27:59;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 1664870a-d191-494c-91ea-73d338f398b6;
+					- _myState = 10240;
+					- _name = "itsUpdate Shuttle Capacity";
+					- _modifiedTimeWeak = 2.3.2015::18:31:7;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID c9e74664-2832-4cd3-95dd-1507951ef6cf;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID d81363f8-7375-4128-90fc-d54092fcde10;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID e705061e-b7ce-4206-b315-7a704b777653;
+					- _myState = 10240;
+					- _name = "itsManage On Duty Status";
+					- _modifiedTimeWeak = 2.3.2015::18:31:7;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID 20326c49-7ddf-4c15-bdd5-75fe33fe4d22;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 5919d011-5129-4923-9b42-67212e3bf0ea;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IActor 
+			- _id = GUID 4fd917af-4bbb-466b-8117-88106861eb63;
+			- _myState = 8192;
+			- _name = "Admin";
+			- _modifiedTimeWeak = 2.3.2015::18:56:23;
+			- weakCGTime = 2.3.2015::18:56:23;
+			- strongCGTime = 2.3.2015::18:11:59;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 6;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 6444356a-f449-43fb-8fb1-55dd48cbb78f;
+					- _myState = 10240;
+					- _name = "itsView Cab Routes";
+					- _modifiedTimeWeak = 2.3.2015::18:56:23;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID fee31111-19e7-47e9-bf64-125c7b5614d0;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 6b01b31a-6e80-4248-a866-6d31db2efaa3;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 1f92ed39-33f2-4189-b68a-0e27511456f3;
+					- _myState = 10240;
+					- _name = "itsManage Cab Routes";
+					- _modifiedTimeWeak = 2.3.2015::18:56:23;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID 54aabe8c-c374-4522-9f63-06c485153e59;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID df23e9ae-72b7-4763-a5d5-575b4db40673;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID e7c34f06-211e-44c4-9578-72e3430b1e84;
+					- _myState = 10240;
+					- _name = "itsView Shuttle Statistics";
+					- _modifiedTimeWeak = 2.3.2015::18:56:23;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID 3a6b07d5-c1d5-4008-9c17-75978cf33b76;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 99fe6138-294c-454e-bf82-37a35b52379d;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID fe1a0485-dcc1-4a25-8713-8ed10fdeda9c;
+					- _myState = 10240;
+					- _name = "itsTrack Shuttle Details";
+					- _modifiedTimeWeak = 2.3.2015::18:56:23;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID 2d11033e-00c4-4e68-97c0-1fc915ac8e86;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 6e743cec-4334-4f83-8bf2-51da348add1d;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 52db0ee8-eecb-4a58-a2fb-675f900d2ad7;
+					- _myState = 10240;
+					- _name = "itsUpdate Shuttle Capacity";
+					- _modifiedTimeWeak = 2.3.2015::18:56:23;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID c9e74664-2832-4cd3-95dd-1507951ef6cf;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID d3fb146d-4ee5-46d6-b529-d8401abe806f;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 8c07ef1b-69f1-4d14-affe-ecb95478332a;
+					- _myState = 10240;
+					- _name = "itsManage On Duty Status";
+					- _modifiedTimeWeak = 2.3.2015::18:56:23;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID 20326c49-7ddf-4c15-bdd5-75fe33fe4d22;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 8c9b4dbc-8cac-4145-b111-f89a907321be;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 2.10.2015::18:47:21;
+}
+

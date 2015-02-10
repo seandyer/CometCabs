@@ -1,0 +1,10 @@
+I-Logix-RPY-Archive version 8.8.0 * 6107223
+
+- filesTable = { IRPYRawContainer 
+	- size = 3;
+	- value = "CometCabs.rpy" ""
+	"CometCabs_rpy\\Default.sbs" "Default"
+	"CometCabs_rpy\\DefaultComponent.cmp" "DefaultComponent"
+	
+}
+
